@@ -32,3 +32,30 @@ movement.append(-5) # adds a -5 at the end of the list
 print(movement) #[5,-2,-3,4,-1, -5]
 movement.remove(-3) #removes the value -3 from the list || CAREFUL it's not index-based, but value based!, so now, the list will be [5,-2,4,-1, -5]
 print(movement)
+
+print() #spacing for readability
+print("Dictionaries:")
+
+starting_positions={
+                   'position1':50,
+                   'position2':100,
+                   'position3':150
+                  }
+print(starting_positions)
+starting_positions['position1'] #stores 50, because the value stored in the first key, "positon1" is 50
+print(starting_positions['position1'])
+print(starting_positions.keys()) #returns the keys names of the starting_positions dictionary
+
+
+
+
+
+
+
+
+
+
+
+
+
+
